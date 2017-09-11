@@ -12,7 +12,7 @@ def primeFactors(n):
 		
 	# n must be odd at this point
 	# so a skip of 2 ( i = i + 2) can be used
-    for i in range(3,int(math.sqrt(n))+1,2):
+    for i in range(3,(int(math.sqrt(n))+1),2):
 		
 		# while i divides n , print i ad divide n
         while n % i== 0:
@@ -27,5 +27,5 @@ def primeFactors(n):
     print a
 # Driver Program to test above function
 
-n = 17000000000000
+n = 17000000000000000
 primeFactors(n)
