@@ -10,7 +10,6 @@ print res
 
 #Simple Array Sum
 import sys
-
 def simpleArraySum(n, ar):
     sum =0
     for i in ar:
